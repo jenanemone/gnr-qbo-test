@@ -11,3 +11,9 @@ Playing with Intuit API with the goal of integrating HTML forms for client
 * QBO is preferred vendor for tax tables
 * QBO can be triggered to automatically send customers their invoices once been created within QBO after triggering API
 * QBO will then include online payment options within email/hosted on their own servers
+
+##### Further questions that need to be answered:
+* What happens when the customer already exists? The HTML form seems useful for new customers, but without some sort of login or caching, it may gum up the works and create multiple copies of a customer or incorrectly pull data from an unrelated, but matched customer.
+* Determine whether QBO API requires sequential calls to first create a customer, and then next create an invoice.
+* Depending on the above, and also upon the workflow for the geo-mapping API, we may need a small server to manage things.
+* How does the client account for the virtual inventory of their products?
