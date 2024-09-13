@@ -17,3 +17,9 @@ Playing with Intuit API with the goal of integrating HTML forms for client
 * Determine whether QBO API requires sequential calls to first create a customer, and then next create an invoice.
 * Depending on the above, and also upon the workflow for the geo-mapping API, we may need a small server to manage things.
 * How does the client account for the virtual inventory of their products?
+
+
+#### Notes for debugging/improving overall site
+* Add a favicon
+* Hamburger menu doesn't work on mobile
+* Strip unecessary code from prior build's hosting
